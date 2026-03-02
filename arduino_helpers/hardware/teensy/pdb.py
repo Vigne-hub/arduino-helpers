@@ -49,5 +49,5 @@ def get_pdb_divide_params(frequency: float, F_BUS: int = int(48e6)) -> pd.DataFr
 
     clock_divide = pd.DataFrame(data, columns=['mult_', 'mult_factor', 'prescaler', 'combined'])
     clock_divide = clock_divide.drop_duplicates(subset=['combined']).sort_values('combined', ascending=True)
-    clock_divide['clock_mod'] = (F_BUS / frequency / clock_divide['combined']).astype(int)
+    clock_divide['clock_mod'] = (F_BUS / frequency / clock_divide['combined']).astype(np.int64)
     return clock_divide[clock_divide['clock_mod'] <= 0xffff]

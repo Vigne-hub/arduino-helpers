@@ -27,9 +27,8 @@ def parse_args():
             # automatically.
             args.port = available_ports[0]
         else:
-            parser.error('No serial port was specified.  Please select at '
-                         'least one of the following ports: %s' %
-                         available_ports)
+            parser.error(f'No serial port was specified.  Please select at '
+                         f'least one of the following ports: {available_ports}')
 
     return args
 
@@ -39,9 +38,9 @@ if __name__ == '__main__':
 
     print('# Upload `.hex` #')
     print('')
-    print('    Board: `%s`' % args.board_name)
-    print('      Hex: `%s`' % args.hex)
-    print('     Port: `%s`' % args.port)
+    print(f'    Board: `{args.board_name}`')
+    print(f'      Hex: `{args.hex}`')
+    print(f'     Port: `{args.port}`')
     print('')
     context = auto_context()
     board = Board(context, args.board_name)

@@ -15,5 +15,6 @@ setup(name='arduino-helpers',
       url='http://github.com/wheeler-microfluidics/arduino-helpers.git',
       license='GPLv2',
       install_requires=['serial-device', 'path-helpers'],
-      packages=['arduino_helpers', 'arduino_helpers.hardware', 'arduino_helpers.bin'],
+      packages=['arduino_helpers', 'arduino_helpers.hardware',
+                'arduino_helpers.hardware.teensy', 'arduino_helpers.bin'],
       include_package_data=True)
