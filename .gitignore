@@ -9,3 +9,5 @@ dist/
 .ipynb_checkpoints
 .project
 .pydevproject
+# pixi
+.pixi/

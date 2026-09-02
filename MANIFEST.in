@@ -1,5 +1,3 @@
 include README.md
-include setup.py
 recursive-include arduino_helpers *
-include versioneer.py
 include arduino_helpers/_version.py

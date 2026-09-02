@@ -1,0 +1,21 @@
+# Changes here will be overwritten by Copier; do not edit manually.
+_commit: v0.3.0
+_src_path: https://github.com/Vigne-hub/scibots-package-template.git
+channel_ref: vigne-hub/scibots
+default_branch: master
+description: arduino-helpers
+flavor: python
+homepage: https://github.com/Vigne-hub/arduino-helpers
+license: BSD-3-Clause
+license_file: COPYING
+module_name: arduino_helpers
+package_dir: .
+package_name: arduino-helpers
+python_min: '3.9'
+run_dependencies:
+    numpy: '*'
+    pandas: '*'
+    path-helpers: '*'
+    serial-device: '*'
+scripts: {}
+version: '0.7'
