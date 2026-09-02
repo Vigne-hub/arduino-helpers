@@ -1,3 +1,5 @@
+## v0.7.0 (2026-09-02)
+
 ## v0.7
 
 Baseline for commitizen-managed releases; matches the last conda-build

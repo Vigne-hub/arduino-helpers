@@ -1,6 +1,6 @@
 # Stamped by `cz bump` (see [tool.commitizen] in pyproject.toml). Keep the
 # `__version__ = "..."` line at column 0 so the version_files regex matches.
-__version__ = "0.7"
+__version__ = "0.7.0"
 
 
 def get_versions():

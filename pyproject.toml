@@ -1,6 +1,6 @@
 [project]
 name = "arduino-helpers"
-version = "0.7"
+version = "0.7.0"
 description = "arduino-helpers"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -31,7 +31,7 @@ preview = ["pixi-build"]
 
 [tool.pixi.package]
 name = "arduino-helpers"
-version = "0.7"
+version = "0.7.0"
 
 [tool.pixi.package.build.backend]
 name = "pixi-build-python"
